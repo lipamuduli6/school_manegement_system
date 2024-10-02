@@ -1,0 +1,75 @@
+
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="utf-8">
+<title>Testbook.com - India's No.1 Govt Exam Preparation Site | Online Course | Mock Test</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="preconnect" href="https://cdn.testbook.com">
+<link rel="preconnect" href="https://blogmedia.testbook.com">
+<link rel="shortcut icon" href="https://testbook.com/assets/img/brand/logo-32x32.png" sizes="32x32">
+<style>
+        .async-hide body > *:not(#anti-flick-loader){
+            opacity: 1 !important;
+        }
+        /*body > *:not(#anti-flick-loader){
+            //causes issues with other elements which have opacity or transition
+            opacity: 1;
+            transition: opacity 0.2s ease-in-out;
+        }*/
+        .async-hide body #anti-flick-loader{
+            display:block;
+        }
+
+        #login-yolo-container , #signup-yolo-container{
+            left: -7px;
+            top: -5px;
+            position: absolute;
+        }
+        iframe#credential_picker_iframe, #credential_picker_container{
+            z-index: 9999999999 !important;
+        }
+        /* #login-yolo-container  iframe , #signup-yolo-container iframe{
+            width: 374px !important
+        } */
+
+        /* vanilla component styles */
+        .default-hidden{
+            display:none !important;
+        }
+
+        .show-all .default-hidden{
+            display:initial !important;
+        }
+        .show-all .default-hidden.dh--flex{
+            display:flex !important;
+        }
+
+        .show-all .hide-on-show{
+            display:none !important;
+        }
+    </style>
+</head>
+<body>
+
+<script async src="/node_modules/coldboot/dist/coldboot.min.js" onload="coldboot.init()" type="text/javascript"></script>
+<div id="cb-await-loader" style="display:none;background-color:rgba(0,0,0,0.6);z-index: 90000000000;position:fixed;left:50%;top:50%;transform:translate(-50%,-50.1%);width:100%;height:100%;backdrop-filter: blur(5px);">
+<div style="width: 200px;padding:20px;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background: white;border-radius: 5px;">
+<div style="margin:auto; width: 70px;height: 90px;background: url(/assets/img/utility/loader.gif) no-repeat 50% 50%;"></div>
+<div id="cb-await-text" style="text-align: center;padding: 20px 0 0 0;margin-bottom: 0.5rem;font-weight: 600;font-size: calc(0.875rem * 0.90);line-height: 1.4;"></div>
+</div>
+</div>
+<app-root></app-root>
+<div id="js-yolo-container"></div>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MTDQQL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script defer src="https://testbook.com/node_modules/sourcebuster/dist/sourcebuster.min.js" onload="sbjs.init({session_length: 30});" type="text/javascript"></script>
+<link rel="stylesheet" href="/angular-ssr/styles.7b4ae59299e55446.css"><script src="/angular-ssr/runtime.a7aec3e6c6bfba37.js" type="module"></script><script src="/angular-ssr/polyfills.e7e1ceb8ad22f2d2.js" type="module"></script><script src="/angular-ssr/main.2edc4dd3c18a1957.js" type="module"></script>
+<script defer src="/angular-ssr/src/assets/vanilla2.min.e283136c3ea73b2d.js" type="text/javascript"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"82e947664e49f442","version":"2023.10.0","token":"a41d7bcb18b446c998780bdc869d8169"}' crossorigin="anonymous"></script>
+</body>
+</html>
